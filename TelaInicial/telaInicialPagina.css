@@ -1,0 +1,43 @@
+body {
+    background-color: #121212;
+    color: white;
+}
+
+.titulo{
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.titulo h1{
+    font-weight: 2000px;
+    justify-content: center;
+    display: flex;
+}
+
+.titulo h2{
+    font-weight: 2000px;
+    justify-content: center;
+    display: flex;
+}
+
+.titulo h3{
+    font-weight: 2000px;
+    justify-content: center;
+    display: flex;
+}
+
+.titulo p{
+    font-weight: 2000px;
+    justify-content: center;
+    display: flex;
+}
+
+.IraFicha{
+    text-decoration: none;
+    font-weight: 2000px;
+    justify-content: center;
+    display: flex;
+    margin: 10%;
+}
+
