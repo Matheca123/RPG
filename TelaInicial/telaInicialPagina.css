@@ -31,7 +31,6 @@ body {
     font-size: 1.5rem;
     color: white;
 }
-
 ul a {
     font-size: 0.70rem;
     color: #fff;
@@ -52,13 +51,13 @@ ul a {
 }
 
 .atualizacoes{
-
+    color: white;
 }
 
 .atualizacoes h1{
-    color: white;
     margin-top: 100px;
-    margin-right: 500px;
-    top: 0;
-    right: 0;
+    position: absolute;
+    bottom: 375px;
+    left: 0;
+    margin-left: 10px;
 }
