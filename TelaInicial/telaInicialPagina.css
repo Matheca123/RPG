@@ -1,33 +1,64 @@
-*{
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
 body {
-    background-color: #121212;
-    color: white;
-    border: solid 1px white;
+    font-family: 'Libre Baskerville', serif;
+    background-color: rgba(0, 0, 0, 0.9);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .titulo {
-    font-family: "Libre Baskerville", serif;
     text-align: center;
-    font-weight: bold;
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
 
-.sobreRpg {
-    display: flex;
-    margin: 5% auto;
-    justify-content: center;
-}
-
-.sobreRpg ul{
-    list-style: none;
-}
-
-.sobreRpg a{
-    text-decoration: none;
+.titulo h1 {
     color: white;
-    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.titulo h2 {
+    font-size: 1.5rem;
+    color: white;
+}
+
+ul a {
+    font-size: 0.70rem;
+    color: #fff;
     background-color: #A347FF;
-    transition:0.5s ;
+    text-decoration: none;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.login {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 25px;
+    margin-right: 10px;
+}
+
+.atualizacoes{
+
+}
+
+.atualizacoes h1{
+    color: white;
+    margin-top: 100px;
+    margin-right: 500px;
+    top: 0;
+    right: 0;
 }

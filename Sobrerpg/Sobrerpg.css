@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #121212;
+    color: white;
+    border: solid 1px white;
+}
+
+.titulo {
+    font-family: "Libre Baskerville", serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+.sobreRpg {
+    display: flex;
+    margin: 5% auto;
+    justify-content: center;
+}
+
+.sobreRpg ul{
+    list-style: none;
+}
+
+.sobreRpg a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    background-color: #A347FF;
+    transition:0.5s ;
+}
