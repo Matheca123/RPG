@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ficha</title>
+    <link rel="stylesheet" href="../FichaRpg/Ficharpg.css">
+</head>
+<body>
+    <div class="fichadepersonagem"> 
+        <h1>FICHA DE PERSONAGEM</h1>
+
+        <div class="atributos">
+            <h2>Atributos</h2>
+            <div class="Forca">
+                <label for="forca">Força</label>
+                <input type="number" name="forca" id="forca" min="0" max="8">
+            </div>
+            <div class="agilidade">
+                <label for="agilidade">AGILIDADE</label>
+                <input type="number" name="agilidade" id="agilidade" min="0" max="8">
+            </div>
+            <div class="inteligencia">
+                <label for="inteligencia">INTELIGÊNCIA</label>
+                <input type="number" name="inteligencia" id="inteligencia" min="0" max="8">
+            </div>
+            <div class="presenca">
+                <label for="presenca">PRESENÇA</label>
+                <input type="number" name="presenca" id="presenca" min="0" max="8">
+            </div>
+            <div class="constituicao">
+                <label for="constituicao">CONSTITUIÇÃO</label>
+                <input type="number" name="constituicao" id="constituicao" min="0" max="8">
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="dadospessoais">
+            <h2>Dados Pessoais</h2>
+            <div class="nome">
+                <label for="nome">NOME:</label>
+                <input type="text" id="nome" name="nome" required> 
+            </div>
+            <div class="idade">
+                <label for="idade">IDADE</label>
+                <input type="number" id="idade" name="idade" required min="0">
+            </div>
+            <div class="raca">
+                <label for="raca">RAÇA</label>
+                <input type="text" id="raca" name="raca" required>
+                <button onclick="window.location.href='../FichaRpg/racas.html'">⏩</button>
+            </div>    
+            <div class="nivel">
+                <label for="nivel">NÍVEL</label>
+                <input type="number" id="nivel" name="nivel" required min="0" max="50">
+            </div>    
+            <div class="peso">
+                <label for="peso">PESO</label>
+                <input type="number" id="peso" name="peso" required min="0">
+            </div>    
+            <div class="altura">
+                <label for="altura">ALTURA</label>
+                <input type="number" id="altura" name="altura" required>
+            </div>    
+            <div class="contratos">
+                <label for="contratos">CONTRATOS</label>
+                <input type="number" id="caontratos" name="contratos" required>
+            </div>    
+            <div class="estilodeluta">
+                <label for="estilodeluta">ESTILO DE LUTA</label>
+                <input type="text" id="estilodeluta" name="estilodeluta" required>
+            </div>
+            <div class="np">
+                <label for="np">NÍVEL DE PROFICIENCIA</label>
+                <input type="text" id="np" name="np" required>
+            </div>    
+            <div class="qtdpas">
+                <label for="qtdpas">QUANTIDADE DE PASSIVAS</label>
+                <input type="number" id="qtdpas" name="qtdpas" min="0" max="10">
+            </div>    
+            <div class="qtdhab">
+                <label for="qtdhab">QUANTIDADE DE HABILIDADES</label>
+                <input type="number" id="qtdhab" name="qtdhab" min="0" max="10">
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="status">
+            <h2>Status</h2>
+            <div class="vida">
+                <label for="vida">VIDA</label>
+                <input type="number" id="vida" name="vida">
+            </div>
+            <div class="sanidade">
+                <label for="sanidade">SANIDADE</label>
+                <input type="number" id="sanidade" name="sanidade">
+            </div>
+            <div class="pe">
+                <label for="pe">PE's</label>
+                <input type="number" id="pe" name="pe">
+            </div>
+            <div class="esquiva">
+                <label for="esquiva">ESQUIVA</label>
+                <input type="number" id="esquiva" name="esquiva">
+            </div>
+            <div class="bloqueio">
+                <label for="bloqueio">BLOQUEIO</label>
+                <input type="number" id="bloqueio" name="bloqueio">
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="pericias">
+            <h2>Perícias</h2>
+            <h3>Escolha suas perícias</h3>
+            <div class="nome">
+                <label> <input type="checkbox" name="pericias" value="acrobacia">
+                ACROBACIA
+                </label>
+                <div class="valorextra">
+                    <label for="acrobacia">
+                        <input type="number" id="acrobacia" name="acrobacia" min="0" max="15">
+                    </label>
+                </div>
+                <label> <input type="checkbox" name="pericias" value="alquimia">
+                    ALQUIMIA
+                    </label>
+                    <div class="valorextra">
+                        <label for="alquimia">
+                            <input type="number" id="alquimia" name="alquimia" min="0" max="15">
+                        </label>
+                    </div>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="ataques">
+            <h2>Ataques</h2>
+            <div class="arma"></div>
+            <div class="tipo"></div>
+            <div class="dano"></div>
+            <div class="critico"></div>
+            <div class="peso"></div>
+            <div class="alcance"></div>
+        </div>
+
+        <hr>
+
+        <div class="inventario">
+            <h2>Inventario</h2>
+            <div class="nome"></div>
+            <div class="quantidade"></div>
+        </div>
+    </div> 
+</body>
+</html>

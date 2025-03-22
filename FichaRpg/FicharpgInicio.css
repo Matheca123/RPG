@@ -1,0 +1,16 @@
+.navbar{
+    background: rgb(4,0,34);
+    background: linear-gradient(90deg, rgba(4,0,34,1) 0%, rgba(140,52,47,1) 35%, rgba(79,57,112,1) 100%);
+    
+}
+
+.navbar-nav{
+    font-size: 20px;
+}
+
+main{
+    margin: 5px;
+    padding: 50px;
+}
+
+
