@@ -7,7 +7,9 @@
 - Alura
 - Chat GPT
 - Html Intro
-
+- Css Gradient
+- Git Hub - Matheca123
+ 
 ## 🔧 Tecnologias Usadas
 - HTML
 - CSS
