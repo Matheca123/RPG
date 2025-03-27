@@ -9,6 +9,8 @@
 - Html Intro
 - Css Gradient
 - Git Hub - Matheca123
+- font awesome
+- dnv font awesome
  
 ## 🔧 Tecnologias Usadas
 - HTML
