@@ -12,6 +12,7 @@
 - Font Awesome
 - Cdn Font Awesome
 - Formsubmit
+- ViaCEP
  
 ## 🔧 Tecnologias Usadas
 - HTML
