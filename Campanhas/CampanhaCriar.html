@@ -56,10 +56,10 @@
         <div class="input-group mb-3">
             <label class="input-group-text" for="inputGroupSelect01">Options</label>
             <select class="form-select" id="inputGroupSelect01">
-              <option selected>Choose...</option>
-              <option value="1">One</option>
-              <option value="2">Two</option>
-              <option value="3">Three</option>
+              <option selected>Selecione uma opção</option>
+              <option value="1">Rola</option>
+              <option value="2">Pica</option>
+              <option value="3">Cu</option>
             </select>
           </div>
 
@@ -67,20 +67,23 @@
             <div class="d-flex justify-content-between align-items-start">
               <p class="mb-1">Chamar Players:</p>
               <div class="botaoChamarPlayer d-flex gap-1">
-                <button type="button" class="btn btn-success btn-sm">+</button>
-                <button type="button" class="btn btn-danger btn-sm">-</button>  
+                <button type="button" class="btn btn-success btn-sm" id="adicionarPlayer">+</button>
+                <button type="button" class="btn btn-danger btn-sm" id="removerPlayer">-</button>  
               </div>
             </div>
           
-            <div class="input-group flex-nowrap">
-              <span class="input-group-text" id="addon-wrapping">@</span>
-              <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="addon-wrapping">
+            <div id="playerInputs">
+              <div class="input-group flex-nowrap mb-2">
+                <span class="input-group-text">@</span>
+                <input type="text" class="form-control" placeholder="Username" aria-label="Username">
+                <input type="email" class="form-control" placeholder="Email" aria-label="Email">
+              </div>
             </div>
           </div>
-          
     </main>
+    
 
-<script src="Campanhas.js"></script>
+<script src="CampanhaCriar.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
 </html>
