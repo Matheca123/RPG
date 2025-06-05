@@ -29,3 +29,9 @@ btnAdicionar.addEventListener("click",() =>{
     grupo.appendChild(input);
     grupo.appendChild(emailinput);
 });
+
+btnRemover.addEventListener("click", () => {
+    if(container.lastChild){
+        container.removeChild(container);
+    }
+});
