@@ -197,25 +197,47 @@ const racas = [
     descricao: "Os Lumarianos são uma raça mística que habitam o mesmo reino etéreo dos yokais e seus olhos irradiam uma luz suave. Possuindo corpos etéreos, sua forma pode variar de padrões de luz e energia, sendo capazes de manifestar características humanoides quando interagem com nosso plano de existência. Os Lumarianos são esqueletos com poderes cósmicos e habilidades psíquicas, canalizando energias para propósitos benevolentes ou cômicos.",
     dinheiroInicial: "0"
   },
-];
+],
+  {
+    nome: "Terranoxianos",
+    imagem: "../img/",
+    vida: "???",
+    sanidade: "???",
+    pe: "???",
+    passivas: "?",
+    habilidades: "?",
+    passivasIniciais: [
       {
-        nome: "Terranoxianos",
-        imagem: "../img/",
-        vida: "???",
-        sanidade: "???",
-        pe: "???",
-        passivas: "?",
-        habilidades: "?",
-        passivasIniciais: [
-          {
-            nome: "???",
-            descricao: ""
-          },
-        ],
-        descricao: "?",
-        dinheiroInicial: "?"
+        nome: "???",
+        descricao: ""
       },
-    ];
+    ],
+    descricao: "?",
+    dinheiroInicial: "0"
+  },
+];
+{
+    nome: "Ainur",
+    imagem: "../img/",
+    vida: "???",
+    sanidade: "???",
+    pe: "???",
+    passivas: "?",
+    habilidades: "?",
+    passivasIniciais: [
+      {
+        nome: "Condicional",
+        descricao: "O mesmo terá uma área em volta de si que rouba 5 de PE para si mesmo (Essa passiva estará sempre ativa, além disso, você poderá escolher os alvos que perderam PE, sendo no máximo 2 alvos)"
+      },
+      {
+        nome: "Enraizado",
+        descricao: "Ataques físicos não o afetam o ainur, somente ataques mágicos ou imbuidos em mágia surtem efeito no usuário"
+      },
+    ],
+    descricao: "?",
+    dinheiroInicial: "0"
+  },
+];
 
 function renderizarCards(racas) {
   const container = document.getElementById("racasContainer");
