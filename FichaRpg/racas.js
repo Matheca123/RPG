@@ -198,6 +198,24 @@ const racas = [
     dinheiroInicial: "0"
   },
 ];
+      {
+        nome: "Terranoxianos",
+        imagem: "../img/",
+        vida: "???",
+        sanidade: "???",
+        pe: "???",
+        passivas: "?",
+        habilidades: "?",
+        passivasIniciais: [
+          {
+            nome: "???",
+            descricao: ""
+          },
+        ],
+        descricao: "?",
+        dinheiroInicial: "?"
+      },
+    ];
 
 function renderizarCards(racas) {
   const container = document.getElementById("racasContainer");
